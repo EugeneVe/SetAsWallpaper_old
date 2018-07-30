@@ -1,14 +1,18 @@
-Description: 
+	Description: 
 This is theme nearly looks like macOS, with script which can set wallpaper for your desktop and simultaneously set same wallpaper on lock screen and login screen with blur effect like on macOS. In attachment you will find file ubuntu.css, where injected some changes, to make your login screen and lock screen looks more like mac OS.
 
 
-   ATTENTION: 
-   TESTED ONLY ON UBUNTU 17.10 with GDM3 (xorg) and UBUNTU 18.04 (Any other OS based on Linux didn't tested!!!)
+	ATTENTION: 
+TESTED AND WORK ONLY ON UBUNTU 17.10 with GDM3 (xorg) and 18.04 LTS (ubuntu). (Any other OS based on Linux didn't tested!!!)
+not work on few monitors ( Just don't have second monitor so i can't develop work version (-_-) Sorry )
 
 
+	REQUIREMENTS:
+
+1) Plank (https://www.ubuntuupdates.org/package/core/bionic/universe/base/plank)
 
 
-   INSTRUCTION:
+	INSTRUCTION:
 
 1. In folder Downloads/setaswallpaper/ click right button of mouse and chose "Open in Terminal", then type
 	sudo chmod +x install.sh
